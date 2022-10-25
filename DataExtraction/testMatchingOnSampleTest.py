@@ -56,8 +56,6 @@ pattern_3 = [
              {'POS': 'NUM'}
 ]
 
-
-
 matcher = Matcher(nlp.vocab)
 matcher.add("matching_2", [pattern_3])
 matches = matcher(doc)
